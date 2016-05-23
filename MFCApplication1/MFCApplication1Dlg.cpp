@@ -82,9 +82,9 @@ BOOL CMFCApplication1Dlg::OnInitDialog()
 	CMenu* pSysMenu = GetSystemMenu(FALSE);
 	if (pSysMenu != NULL)
 	{
-		BOOL bNameValid = FALSE;
+		BOOL bNameValid;
 		CString strAboutMenu("totolitoto");
-		//bNameValid = strAboutMenu.LoadString(IDS_ABOUTBOX);
+		bNameValid = strAboutMenu.LoadString(IDS_ABOUTBOX);
 		ASSERT(bNameValid);
 		if (!strAboutMenu.IsEmpty())
 		{
