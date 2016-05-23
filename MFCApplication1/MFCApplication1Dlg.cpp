@@ -16,6 +16,7 @@
 
 class CAboutDlg : public CDialogEx
 {
+    // reno's comment
 public:
 	CAboutDlg();
 
@@ -83,7 +84,7 @@ BOOL CMFCApplication1Dlg::OnInitDialog()
 	if (pSysMenu != NULL)
 	{
 		BOOL bNameValid;
-		CString strAboutMenu("tatalitata");
+		CString strAboutMenu("totolitoto");
 		bNameValid = strAboutMenu.LoadString(IDS_ABOUTBOX);
 		ASSERT(bNameValid);
 		if (!strAboutMenu.IsEmpty())
